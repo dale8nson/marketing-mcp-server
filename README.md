@@ -1,5 +1,5 @@
 # Market Research Analytics MCP Server
-
+Notes that have been shamelessly copy and pasted from AI answers from Google Search. It's just a start to give me an overview and a sense of direction. 
 ## Core Marketing Analytics Functions
 - __Real-time Campaign Performance Analysis__: Instantly query metrics across all channels (email, social, paid ads, SEO) to get performance summaries, identify top performers, spot anomalies, and receive optimization recommendations without manual reporting.
    
