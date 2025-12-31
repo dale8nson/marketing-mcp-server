@@ -114,3 +114,10 @@
 ## Server frameworks
 - rmcp
 - actix-web - known for fast performance, but more memory overhead than axum
+
+## Resources
+[Empowering Marketing Analytics with MCP Servers](https://aijourn.com/empowering-marketing-analytics-with-mcp-servers/)
+
+[MCP Use Cases – The Top Use Cases For MCP and MCP Servers](https://mcpmanager.ai/blog/mcp-use-cases/)
+
+[Lightning-fast insights for BFCM: How to use Klaviyo’s MCP server to supercharge your strategy](https://www.klaviyo.com/blog/mcp-server-examples-bfcm)
