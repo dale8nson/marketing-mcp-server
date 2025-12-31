@@ -1,3 +1,7 @@
+mod ms365;
+mod salesforce;
+mod sap;
+
 // Core Marketing Analytics Functions
 
 //     Real-time Campaign Performance Analysis: Instantly query metrics across all channels (email, social, paid ads, SEO) to get performance summaries, identify top performers, spot anomalies, and receive optimization recommendations without manual reporting.
@@ -7,21 +11,20 @@
 //     Predictive Insights and Decision Support: Leverage historical data analysis to forecast future trends, predict customer lifetime value (CLV), identify churn risks, and inform strategic decisions like budget allocation with data-backed projections.
 //     Automated Content and Copy Generation: Generate data-driven copy inspiration, including email body text, subject lines, and social media posts, based on past campaign success and brand guidelines.
 //     Flow and Funnel Optimization Insights: Identify bottlenecks, high drop-off points, and engagement patterns within automated marketing flows (e.g., abandoned cart or welcome series) and receive specific suggestions for improvement.
-//     Ad-Hoc Performance Question Answering: Get immediate answers to specific, one-off questions (e.g., "What's the best day of the week for clicks?") without needing to build a new report or sift through dashboards. 
+//     Ad-Hoc Performance Question Answering: Get immediate answers to specific, one-off questions (e.g., "What's the best day of the week for clicks?") without needing to build a new report or sift through dashboards.
 
 // Key Benefits for Marketers
 
 //     Time Savings: Reduces time spent on manual data exports, report creation, and analysis by 50-70%.
 //     Faster Insights and Agility: Enables proactive, real-time decision-making, allowing marketers to adjust strategies on the fly rather than waiting days or weeks for data analysts.
 //     Actionable Intelligence: AI can move beyond analysis to trigger actions, such as drafting campaigns, updating CRM fields, or sending alerts, directly from the insights generated.
-// 
+//
 // Wesfarmers CRMs:
-// 
+//
 // Salesforce: Wesfarmers One Pass (the group's subscription program that spans brands like Bunnings, Kmart, and Target) selected Salesforce Marketing Cloud for marketing automation to modernise its CRM operations. Additionally, the non-profit partner SisterWorks implemented a Salesforce database for donor management, supported by funding from Wesfarmers Health.
 // SAP: Wesfarmers OneDigital, the data and digital division that drives the group's digital strategy, lists SAP as one of its technologies in its tech stack, specifically within the CRM category.
 // Microsoft Dynamics 365: In 2019, Wesfarmers adopted Microsoft Dynamics 365 for Finance and Operations for its ERP financials across the group. While primarily an ERP system, Dynamics 365 also offers integrated CRM capabilities, suggesting a unified approach in some areas.
-// Braze: This marketing automation platform is also listed as part of the Wesfarmers OneDigital tech stack 
-
+// Braze: This marketing automation platform is also listed as part of the Wesfarmers OneDigital tech stack
 
 // Churn Rate
 // Formula: % = (Customers Lost during the Period / Total Customers at the Start of the Period) × 100
