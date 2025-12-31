@@ -32,12 +32,12 @@
 
 ## GraphQL implementation
 - considered superior for MCP servers
-### __Issues__
+### Issues
   - Caching: Standard HTTP caching is difficult with GraphQL's single endpoint; custom, more sophisticated caching solutions are required.
   - Security & Performance Management: The flexibility can lead to performance issues (the "N+1 query problem") or security vulnerabilities (deep query attacks) if query depth and complexity limits aren't carefully managed and enforced.
-- possible Rust library - async-graphql
-  - alternative - Apollo MCP Server  - more opinionated than async-graphql 
-
+### Rust Libraries 
+- async-graphql
+- alternative - Apollo MCP Server  - more opinionated than async-graphql 
 ## Server frameworks
 - rmcp
 - actix-web - known for fast performance, but more memory overhead than axum
