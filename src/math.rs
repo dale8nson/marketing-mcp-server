@@ -1,26 +1,26 @@
 pub(crate) fn churn_rate() -> f64 {
-    0.0
+    todo!()
 }
 
 /// Cost per Acquisition (CPA)
 ///
 /// Formula: CPA = Total Cost of Campaign / Number of Conversions
 pub(crate) fn cpa() -> f64 {
-    0.0
+    todo!()
 }
 
 /// Market Penetration Rate
 ///
 /// Formula: % = (Number of Customers Who Purchased Your Product / Total Number of Potential Customers) × 100
 pub(crate) fn mpr() -> f64 {
-    0.0
+    todo!()
 }
 
 /// Market Share
 ///
 /// Formula: (%) = (Company’s Sales / Total Market Sales) × 100
 pub(crate) fn market_share() -> f64 {
-    0.0
+    todo!()
 }
 
 /// Net Promoter Score (NPS)
@@ -61,5 +61,5 @@ pub(crate) fn market_share() -> f64 {
 ///
 /// Remember that Passives are not factored into the final NPS calculation, although they represent a segment of customers whose loyalty is not assured.
 pub(crate) fn NPS() -> f64 {
-    0.0
+    todo!()
 }
