@@ -1,12 +1,18 @@
+use std::any::Any;
+
+use actix_web::web::Query;
 use async_graphql::{
-    Context, EmptyMutation, EmptySubscription, Enum, Error, Interface, Object, OutputType, Result,
-    Schema, SimpleObject,
-    connection::{Connection, Edge, query},
-};
+    ComplexObject
+// #[derive(Default, InputObject)]
+// #[graphql(complex)]
+// pub struct SalesForce {
+//     url: String,
+// }
 
-#[derive(SimpleObject)]
-pub struct SalesForce {}
+// #[ComplexObject]
+// impl SalesForce {}
 
-pub struct QueryRoot;
+#[derive(Serialize, Deserialize, Clone, Debug)]
+struct Salesforce {
 
-impl QueryRoot {}
+}
